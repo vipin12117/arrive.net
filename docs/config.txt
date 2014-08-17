@@ -1,0 +1,4 @@
+http://partners.wctravel.com
+
+username: arrive
+password: love6375
