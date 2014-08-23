@@ -1,0 +1,131 @@
+2014-08-21 17:01:13 Error: [MissingHelperException] Helper class elementHelper could not be found.
+Exception Attributes: array (
+  'class' => 'elementHelper',
+  'plugin' => false,
+)
+Request URL: /ArriveNet/Home
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('element')
+#1 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(837): HelperCollection->__isset('element')
+#2 E:\xampp2\htdocs\ArriveNet\app\View\Layouts\default.phtml(40): View->__get('element')
+#3 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(948): include('E:\xampp2\htdoc...')
+#4 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(910): View->_evaluate('E:\xampp2\htdoc...', Array)
+#5 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(542): View->_render('E:\xampp2\htdoc...')
+#6 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 E:\xampp2\htdocs\ArriveNet\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\xampp2\htdocs\ArriveNet\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\xampp2\htdocs\ArriveNet\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#10 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-21 17:01:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/trans.png
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:01:52 Error: [MissingHelperException] Helper class ElementHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ElementHelper',
+  'plugin' => false,
+)
+Request URL: /ArriveNet/Home
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Element')
+#1 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(837): HelperCollection->__isset('Element')
+#2 E:\xampp2\htdocs\ArriveNet\app\View\Layouts\default.phtml(40): View->__get('Element')
+#3 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(948): include('E:\xampp2\htdoc...')
+#4 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(910): View->_evaluate('E:\xampp2\htdoc...', Array)
+#5 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(542): View->_render('E:\xampp2\htdoc...')
+#6 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 E:\xampp2\htdocs\ArriveNet\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\xampp2\htdocs\ArriveNet\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\xampp2\htdocs\ArriveNet\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#10 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-21 17:01:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/trans.png
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:02:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/img1.jpg
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:02:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/more-btn.jpg
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:02:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/top-rept.jpg
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:02:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/section-bg.jpg
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:02:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/trans.png
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:02:47 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/images/img1.jpg
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-21 17:17:35 Error: [MissingControllerException] Controller class Booking.arrive.netController could not be found.
+Exception Attributes: array (
+  'class' => 'Booking.arrive.netController',
+  'plugin' => NULL,
+)
+Request URL: /ArriveNet/booking.arrive.net/nexres/search/power_search.cgi
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-23 05:00:08 Error: [MissingViewException] View file "E:\xampp2\htdocs\ArriveNet\app\View\Home\booking.phtml" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp2\\htdocs\\ArriveNet\\app\\View\\Home\\booking.phtml',
+)
+Request URL: /ArriveNet/Home/booking
+Stack Trace:
+#0 E:\xampp2\htdocs\ArriveNet\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 E:\xampp2\htdocs\ArriveNet\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp2\htdocs\ArriveNet\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 E:\xampp2\htdocs\ArriveNet\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#4 E:\xampp2\htdocs\ArriveNet\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

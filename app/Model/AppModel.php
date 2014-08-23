@@ -30,4 +30,46 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
+	/**
+	 * Return unique code of passed digits
+	 * @param Int $size
+	 */
+	public function uniqueCode($size=6){
+		$validchars = array(0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h','i','j','k','m','n','o','p','q','r','s','t','u','v','w','x','y','z');
+		@mt_srand ((double) microtime() * 1000000);
+		$code = '';
+		for ($i = 0; $i < $size; $i++){
+			@$index = @mt_rand(0, count($validchars));
+			if(!$index){
+				$index=0;
+			}
+			$code .= @$validchars[$index];
+		}
+		return $code;
+	}
+
+	/**
+	 * Unbind the all model mapping
+	 */
+	public function unbindModelAll(){
+		$unbind = array();
+		foreach ($this->belongsTo as $model=>$info){
+			$unbind['belongsTo'][] = $model;
+		}
+
+		foreach ($this->hasOne as $model=>$info){
+			$unbind['hasOne'][] = $model;
+		}
+
+		foreach ($this->hasMany as $model=>$info){
+			$unbind['hasMany'][] = $model;
+		}
+
+		foreach ($this->hasAndBelongsToMany as $model=>$info){
+			$unbind['hasAndBelongsToMany'][] = $model;
+		}
+
+		parent::unbindModel($unbind);
+	}
 }
