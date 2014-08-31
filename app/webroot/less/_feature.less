@@ -1,0 +1,65 @@
+/* 
+    Created on : Aug 31, 2014, 5:57:57 PM
+    Author     : HoangTien
+*/
+
+.featured {
+    background: #fff;
+    .clearfix;
+    padding-top:40px;
+    h2 {
+        color: #f87e49;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+}
+
+.list-destination {
+    list-style: none;
+    padding-bottom: 40px;
+    .clearfix;
+    @media screen and (max-width:@screen-sm) {
+        padding-left:15px;
+    }
+    li {
+        float: left;
+        width:30%;
+        margin-right:10px;
+        margin-top:10px;
+        @media screen and (max-width:@screen-xs) {
+            width:95%;
+        }
+        a {
+            width: 100%;
+            overflow: hidden;
+            margin-right:10px;
+            display: block;
+            color:#fff;
+            text-align:center;
+            position: relative;
+            p {
+                position: absolute;
+                top:30%;
+                left:37%;
+                background:url("@{image-path}/bg-circle.png") no-repeat center center;
+                width:80px;
+                height: 80px;
+                text-transform: uppercase;
+                font-size:11px;
+                text-align: center;
+                padding-top:21px;
+                @media screen and (max-width:@screen-sm) {
+                   left:30%;
+                }
+                @media screen and (max-width:@screen-xs) {
+                   left:40%;
+                }
+                span {
+                    font-size: 7px;
+                    .clearfix;
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}

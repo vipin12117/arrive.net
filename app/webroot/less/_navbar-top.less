@@ -1,0 +1,87 @@
+/* 
+    Created on : Aug 31, 2014, 4:46:26 PM
+    Author     : HoangTien
+*/
+nav {
+    margin-top:70px;
+    background: #fff;
+    min-height: 95px;
+    @media screen and (max-width:@screen-sm){
+        min-height:50px;
+    }
+}
+
+.navbar-inner {
+    background: #fff;
+}
+
+.navbar-nav {
+    margin-top:35px;
+        li {
+            a {
+                color: #333;
+                font-size:11px;
+                padding:5px 25px!important;
+                border-radius: 5px;
+            }
+        }
+}
+
+.navbar-brand {
+    background: url("@{image-path}/logo.png") no-repeat top left;
+    width: 105px;
+    height: 22px;
+    margin-top:34px;
+    margin-right:65px;
+    @media screen and (max-width:@screen-sm) {
+        margin-left:15px;
+        margin-top:12px;
+    }
+    @media screen and (max-width:@screen-xs) {
+        margin-right:0px;
+    }
+}
+
+.navbar-toggle {
+    margin-top:30px;
+    margin-right:10px;
+    @media screen and (max-width:@screen-sm) {
+        margin-left:15px;
+        margin-top:10px;
+    }
+    .icon-bar {
+        background:#ccc;
+    }
+}
+.m-nav {
+    border-top:1px solid #e6e6e6;
+    ul {
+        @media screen and (max-width:@screen-sm) {
+            margin-top:0px;
+            li {
+                a {
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+}
+
+// style width 767px and 1023px
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .navbar-brand {
+        margin-right:0px;
+    }
+    .navbar-nav {
+        li {
+            a {
+                padding:5px 15px !important;
+            }
+            &:first-child {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+

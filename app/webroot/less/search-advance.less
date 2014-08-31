@@ -1,0 +1,129 @@
+/* 
+    Created on : Aug 31, 2014, 9:33:12 PM
+    Author     : HoangTien
+*/
+
+.search-advance {
+    height: 400px;
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    ul#tab-search {
+        margin-left: 120px;
+        width:62%;
+        border-bottom:none;
+        @media screen and (max-width:@screen-xs) {
+            margin-left:10px;
+            width:92%;
+        }
+        li {
+            background:#e8e3c5 url('@{image-path}/separator.gif') no-repeat right center;
+            position:relative;
+            top:5px;
+            a {
+                border:none;
+                padding:0px 35px;
+                border-radius: 0px;
+                text-align: center;
+                margin-right: 0px;
+                &:hover {
+                    background:#fffbe2;
+                }
+                @media screen and (min-width:@screen-min-sd) and (max-width: @screen-max-sd) {
+                    padding:0px 25px;
+                }
+                @media screen and (max-width:@screen-sm) {
+                    padding:0px 15px;
+                }
+                @media screen and (max-width:@screen-xs) {
+                    padding:0px 5px;
+                }
+            }
+            &:last-child {
+                background:#e8e3c5; 
+            }
+        }
+
+        li.active {
+            margin-right: 10px;
+            top:0px;
+            @media screen and (max-width:@screen-xs) {
+                margin-right: 7px;
+            }
+            a {
+                background:#fffbe2;
+            }
+        }
+    }
+    .tab-content {
+        margin-left: 100px;
+        background: #fffbe2;
+        border-top-left-radius: @border-radius-small;
+        border-right-left-radius: @border-radius-small;
+        width:64%;
+        @media screen and (min-width:@screen-min-sd) and (max-width:@screen-max-sd) {
+            width:70%;
+        }
+         @media screen and (max-width:@screen-sm) {
+            width:67%;
+        }
+        @media screen and (max-width:@screen-xs) {
+            margin-left:0px;
+            width:100%;
+        }
+        .input-group {
+            width:100%;
+            padding: 10px 0 10px 30px;
+            @media screen and (max-width:@screen-sm) {
+                padding: 10px 0 10px 10px;
+            }
+            @media screen and (max-width:@screen-xs) {
+                padding: 15px 0 10px 10px;
+            }
+            .form-control {
+                width:83%;
+                border-radius: 0px;
+                height: 30px;
+                font-size:12px;
+                @media screen and (max-width:@screen-sm) {
+                    width:81%;
+                }
+                @media screen and (max-width:@screen-xs) {
+                    width:75%;
+                }
+            }
+            .btn {
+                background:#e16a3d;
+                border-radius: 0;
+                color: #fff;
+                font-size: 11px;
+                margin-left: 3px;
+            }
+        }
+    }
+}
+.icon {
+    background: url('@{image-path}/sprites.png') no-repeat 0px 0px;
+    width:36px;
+    height:36px;
+    display:inline-block;
+}
+.icon-hotels {
+    background-position: 0px 0px; 
+}
+.icon-flight {
+    background-position: -36px 0px; 
+}
+.icon-car {
+    background-position: -72px 0px; 
+}
+.icon-travel {
+    background-position: -108px 0px; 
+}
+.icon-cruiser {
+    background-position: -142px 0px; 
+}
